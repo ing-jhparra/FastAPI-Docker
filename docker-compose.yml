@@ -1,8 +1,8 @@
 version: '3.8'
 services:
   app:
-    image: timcepeda/myapp:latest
-    container_name: myapp
+    image: jhparra777/fastapi:latest
+    container_name: fastapi
     build: .
     ports:
       - "80:80"
